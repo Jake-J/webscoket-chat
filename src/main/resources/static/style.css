@@ -1,0 +1,9 @@
+
+.message-author{
+	color:red;
+	font-size:1.1em;
+}
+.current-client{
+	color:blue;
+	text-decoration:underline;
+}

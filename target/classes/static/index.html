@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/style.css" rel="stylesheet">
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+<script src="/script.js"></script>
+</head>
+<body>
+	<button onclick="connect()">connect</button>
+	<button onclick="disconnect()">disconnect</button>
+	<label for="message_input">Message</label>
+	<input type="text" id="message_input" />
+	<label for="user_input">User</label>
+	<input type="text" id="user_input" />
+	<button onclick="sendMessage()">Send Message</button>
+	<h2>Messages here</h2>
+	<div class="messages-wrap">
+	</div>
+</body>
+</html>
